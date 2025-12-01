@@ -1,0 +1,44 @@
+/* history.css */
+.root {
+  -fx-font-family: "Segoe UI", "System";
+  -fx-background-color: #E6F2FF;
+}
+
+.header-box {
+  -fx-background-color: linear-gradient(to bottom, #1E90FF, #0B3D91);
+  -fx-padding: 18;
+}
+
+.title-label {
+  -fx-text-fill: white;
+  -fx-font-size: 26px;
+  -fx-font-weight: bold;
+}
+
+.subtitle-label {
+  -fx-text-fill: #DDEEFF;
+  -fx-font-size: 12px;
+}
+
+.info-row {
+  -fx-background-color: white;
+  -fx-padding: 12;
+  -fx-background-radius: 8;
+  -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.06), 8, 0, 0, 2);
+}
+
+.bottom-bar {
+  -fx-background-color: transparent;
+  -fx-padding: 12;
+}
+
+.button {
+  -fx-background-radius: 6;
+  -fx-text-fill: white;
+  -fx-font-weight: bold;
+}
+
+/* specific button coloring (use in Scene Builder or add style classes) */
+#btnRefresh { -fx-background-color: #1E90FF; }
+#btnVerify  { -fx-background-color: #27ae60; } /* green for verify */
+#btnBack    { -fx-background-color: #95a5a6; } /* muted */
